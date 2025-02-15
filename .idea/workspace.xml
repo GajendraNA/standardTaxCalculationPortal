@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d994b74c-444f-48df-9ac0-688b05f39522" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/backend/stcp/src/main/java/com/gajendra/stcp/controller/TaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/stcp/src/main/java/com/gajendra/stcp/controller/TaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/stcp/src/main/java/com/gajendra/stcp/service/TaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/stcp/src/main/java/com/gajendra/stcp/service/TaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tax-calculation-portal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tax-calculation-portal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tax-calculation-portal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tax-calculation-portal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tax-calculation-portal/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tax-calculation-portal/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/backend/stcp" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2t45KJkoZEvli676J42gTWL75QI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Gajen/Projects/8th sem/internship_apply/stcp/backend/stcp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d994b74c-444f-48df-9ac0-688b05f39522" name="Changes" comment="" />
+      <created>1739598442192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739598442192</updated>
+    </task>
+    <servers />
+  </component>
+</project>
