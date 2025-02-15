@@ -1,0 +1,27 @@
+/* src/components/TaxResult.css */
+.tax-result {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .tax-result h2 {
+    color: #6200ee;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .tax-result p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  .tax-result p span {
+    font-weight: 600;
+    color: #6200ee;
+  }

@@ -1,6 +1,6 @@
-// src/components/TaxResult.js
 import React from "react";
 import { useLocation } from "react-router-dom";
+import "./TaxResult.css"; // Import component-specific styles
 
 const TaxResult = () => {
   const location = useLocation();
@@ -11,7 +11,7 @@ const TaxResult = () => {
   }
 
   return (
-    <div>
+    <div className="tax-result">
       <h2>Tax Calculation Result</h2>
       <p>Taxable Income: {taxResult.taxableIncome}</p>
       <p>Tax Payable: {taxResult.taxPayable}</p>

@@ -1,38 +1,131 @@
-.App {
+/* src/App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  background-color: #6200ee;
+  padding: 1rem;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav a:hover {
+  text-decoration: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #6200ee;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1.5rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 600;
+  color: #555;
+  font-size: 1rem;
+}
+
+input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #6200ee;
+  outline: none;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #6200ee;
   color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #3700b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #6200ee;
+  color: white;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tax-result {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tax-result p {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.75rem 0;
+}
+
+.tax-result p span {
+  font-weight: 600;
+  color: #6200ee;
 }

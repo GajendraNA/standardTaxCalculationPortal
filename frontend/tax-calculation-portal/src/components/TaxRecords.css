@@ -1,0 +1,34 @@
+/* src/components/TaxRecords.css */
+.tax-records {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tax-records h2 {
+    color: #6200ee;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tax-records table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tax-records th,
+.tax-records td {
+    padding: 1rem;
+}
+
+.tax-records th {
+    background-color: #6200ee;
+    color: white;
+    font-weight: 600;
+}
+
+.tax-records tr:hover {
+    background-color: #f1f1f1;
+}
